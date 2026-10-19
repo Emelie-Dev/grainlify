@@ -8093,6 +8093,8 @@ impl ProgramEscrowContract {
 #[cfg(test)]
 #[cfg(any())] // pre-existing breakage: uses std, imports from crate::test
 mod test_dynamic_pricing;
+#[cfg(test)]
+mod test_dynamic_pricing_boundaries;
 #[cfg(any())] // pre-existing breakage: #[test] inside impl blocks
 mod test_pagination;
 #[cfg(test)]
